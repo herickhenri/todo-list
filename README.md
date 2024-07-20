@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="public/logo.svg">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Este é um projeto desafio desenvolvido para o curso de fundamentos do react realizado pela Rocketseat
 
-Currently, two official plugins are available:
+### O projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto consiste em to-do list, uma lista de taferas no qual o usuário pode adicionar ou remover novas atividades.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- [x] Criar uma nova tarefa
+- [x] Apagar uma tarefa existente
+- [x] Marcar uma tarefa como concluída
+- [x] Marcar uma tarefa como não concluída
+- [x] Armazenar os dados no localStorage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Verão mobile
+
+O site conta também com sua versão mobile totalmente responsiva
+
+## 💻 Pré-requisitos para executar o projeto em seu computador
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+- Você instalou a versão mais recente do `<nodejs / git>`
+- Você tem uma máquina `<Windows / Linux / Mac>`.
+
+## 🚀 Instalando o To-do List
+
+Para instalar o To-do List, siga estas etapas:
+
+Faça o clone no repositório na sua máquina:
+
+```
+git clone https://github.com/erickhenri/todo-list.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Faça a instalação das dependências:
+
+```
+npm install
+```
+
+## ☕ Usando To-do List
+
+Para usar To-do List, execute o código:
+
+```
+npm run dev
+```
+

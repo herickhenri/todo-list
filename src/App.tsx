@@ -9,7 +9,7 @@ export function App() {
         <img src="/logo.svg" alt="Logo do todo" />
       </header>
       
-      <div className="max-w-3xl mx-auto space-y-16 mb-20">
+      <div className="max-w-3xl mx-auto space-y-16 mb-20 px-4">
         <TasksListProvider>
           <NewTaskForm />
 
