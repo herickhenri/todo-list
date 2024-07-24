@@ -15,7 +15,7 @@ const TasksListProvider = ({
 }: {
   children: React.ReactNode
 }) => {
-  const tasksList = JSON.parse(localStorage.getItem('tasksList') || '[]') as TaskType[]
+  const tasksList = JSON.parse(localStorage.getItem('@tasksList:1.0.0') || '[]') as TaskType[]
   const [tasks, setTasks] = useState<TaskType[]>(tasksList)
 
   function changeTasksList(newTasksList: TaskType[]) {

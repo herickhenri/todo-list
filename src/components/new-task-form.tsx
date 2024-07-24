@@ -17,7 +17,7 @@ export function NewTaskForm() {
         id: uuidv4()
       } ,...tasks]
 
-    localStorage.setItem('tasksList', JSON.stringify(newTasksListWithNewTask))
+    localStorage.setItem('@tasksList:1.0.0', JSON.stringify(newTasksListWithNewTask))
     changeTasksList(newTasksListWithNewTask)
 
     setNewTaskInput('')
